@@ -8,6 +8,9 @@ body{
 .darku{
     color: rgb(13, 19, 33);
 }
+.white-color{
+    color: #fff;
+}
 .description{
     font-size: 16px;
     line-height: 26px;
@@ -60,7 +63,7 @@ button{
 }
 
 /* Main area */
-main{
+main, footer{
     max-width: 1140px;
     margin: 0 150px;
 }
@@ -68,12 +71,15 @@ main{
     /* Development-info styles */
 .dev-info{
     padding: 80px 97px; 
+    background-color: rgba(18, 29, 54, 0.027);
 }
 .dev-parent{
     display: flex;
     justify-content: space-between;
     padding: 48px;
     gap: 98px;
+    background-color: #ffffff;
+    margin: 30px 0;
 }
 .dev-title{
     font-size: 24px;
@@ -81,8 +87,115 @@ main{
     opacity: 0.7;
     line-height: 36px;
 }
+/* .alada-bg{
+    background-color: #ffffff;
+} */
 .dev-btn{
     border-radius: 0;
     padding: 12px 20px;
     margin-top: 20px;
+}
+
+    /* Inspiration area styles */
+.inspiration-area{
+    padding: 0 32px;
+}
+.ins-content{
+    padding: 0 144px;
+    margin-bottom: 50px;
+}
+.iframe{
+    width: 929px;
+    height:523px;
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+
+    /* My Target area styles */
+.target-parent{
+    display: flex;
+    gap: 24px;
+}
+.target-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.learn-more{
+    font-weight: bold;
+}
+.child{
+    padding: 40px;
+}
+.child-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.child-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.child-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+    /* Next target styles */
+.parent-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 40px;
+    margin: 24px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.image img{
+    width: 100px;
+    height: 90px;
+}
+
+    /* Support area styles */
+.support-area{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 16px;
+    padding: 68px 48px;
+    margin-top: 50px;
+}
+.last-item{
+    padding: 0 180px;
+}
+.last-item p{
+    margin: -20px 0 30px 0;
+}
+.input-item{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.last-item input[type="text"]{
+    padding: 25px 215px 25px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    color:rgba(13, 19, 33, 0.4);
+    border-radius: 8px;
+}
+.last-item input[type="submit"]{
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+    /* Footer section styles */
+footer{
+    padding: 15px 0;
+    margin-top: 50px;
+}
+.parent-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
