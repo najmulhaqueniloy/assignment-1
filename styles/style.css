@@ -179,6 +179,9 @@ main, footer{
     color:rgba(13, 19, 33, 0.4);
     border-radius: 8px;
 }
+.last-item input[type="text"]:focus{
+    color: #000000;
+}
 .last-item input[type="submit"]{
     padding: 17px 20px;
     border-radius: 8px;
